@@ -1,0 +1,10 @@
+model_name = 'SEMF'
+model_discrepancy = 3.0  # MeV
+
+parameter_prior_type = 'Zellner'
+zellner_g = 'D'
+parameter_prior_mu = None
+parameter_prior_sigma = None
+
+model_prior_type = 'uniform'
+dilution_factor = 1.
